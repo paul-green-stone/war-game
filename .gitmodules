@@ -1,0 +1,3 @@
+[submodule "queue-ADT"]
+	path = queue-ADT
+	url = https://github.com/paul-green-stone/queue-ADT.git
