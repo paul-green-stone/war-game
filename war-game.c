@@ -68,10 +68,7 @@ void show_hand(Queue* q) {
 
 /* ================================================================ */
 
-int play(Queue* hand1, Queue* hand2) {
-    /* The result of the game */
-    int result;
-
+void play(Queue* hand1, Queue* hand2) {
     size_t steps = 0;
 
     Queue* war_deck = Queue_new(NULL);
@@ -149,5 +146,5 @@ int play(Queue* hand1, Queue* hand2) {
 
     Queue_destroy(&war_deck);
 
-    return result;
+    return ;
 }

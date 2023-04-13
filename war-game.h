@@ -16,19 +16,6 @@
 #define DECK_SIZE 52
 /* Maximum number of steps */
 #define MAX_STEPS 5000
-/* Number of games */
-#define N_GAMES 1000
-
-/* Exceeded the number of MAX_STEPS */
-#define TIE 0
-/* Player 1 wins */
-#define PLAYER_1 1
-/* Player 2 wins */
-#define PLAYER_2 2
-/* Player 1 runs out of card in the war */
-#define PLAYER_1_LOOSE_WAR 3
-/* Player 2 runs out of card in the war */
-#define PLAYER_2_LOOSE_WAR 4
 
 /* ================================ */
 
@@ -50,6 +37,6 @@ extern void clear_war_deck(Queue* war_deck, Queue* hand);
 
 extern void show_hand(Queue* hand);
 
-extern int play(Queue* hand_1, Queue* hand_2);
+extern void play(Queue* hand_1, Queue* hand_2);
 
 #endif

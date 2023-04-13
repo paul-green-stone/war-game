@@ -9,10 +9,6 @@
 /* ================================================================ */
 
 int main(int argc, char** argv) {
-    /* Game statistics */
-    int result;
-    size_t statistics[5] = {0, 0, 0, 0, 0};
-
     /* 'Initialize' a random number generator */
     time_t t;
     srand((unsigned) time(&t));
